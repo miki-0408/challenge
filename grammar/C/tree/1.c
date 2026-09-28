@@ -1,0 +1,5 @@
+int aaa, bbb, ccc;
+int main(){
+  aaa = bbb + ccc + 100;
+  return 0;
+}

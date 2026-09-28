@@ -1,0 +1,115 @@
+CFG detail for /mnt/d/vs code project/challenge/mini-object-optimized/testcase/loop.m
+
+Block B0 (label: main)
+  succ: B1(fallthrough)
+  preds: <none>
+  tacs:
+    - label main
+
+Block B1
+  succ: B2(fallthrough)
+  preds: B0
+  tacs:
+    - begin
+    - var a
+    - var b
+    - var c
+    - var i
+    - var j
+    - input a
+    - input b
+    - input c
+    - j = 5
+
+Block B2 (label: L8)
+  succ: B3(fallthrough)
+  preds: B1
+  tacs:
+    - label L8
+    - var t28
+    - t28 = b * c
+    - var t29
+    - t29 = a + t28
+    - var t30
+    - t30 = a + c
+    - var t31
+    - t31 = t30 / b
+    - var t32
+    - t32 = t29 - t31
+    - var t33
+    - t33 = t32 + 9
+    - var t35
+    - t35 = a + t28
+    - var t36
+    - t36 = c - a
+    - var t37
+    - t37 = t36 / b
+    - var t38
+    - t38 = t35 - t37
+    - var t39
+    - t39 = t38 + 9
+
+Block B3 (label: L4)
+  succ: B9(branch) ,B4(fallthrough)
+  preds: B8 ,B2
+  tacs:
+    - label L4
+    - var t0
+    - t0 = (j > 0)
+    - ifz t0 goto L5
+
+Block B4
+  succ: B5(fallthrough)
+  preds: B3
+  tacs:
+    - output j
+    - i = 9
+
+Block B5 (label: L7)
+  succ: B6(fallthrough)
+  preds: B4
+  tacs:
+    - label L7
+
+Block B6 (label: L1)
+  succ: B8(branch) ,B7(fallthrough)
+  preds: B7 ,B5
+  tacs:
+    - label L1
+    - var t1
+    - t1 = (i > 0)
+    - ifz t1 goto L2
+
+Block B7
+  succ: B6(goto)
+  preds: B6
+  tacs:
+    - output i
+    - var t14
+    - t14 = i - 1
+    - i = t14
+    - goto L1
+
+Block B8 (label: L2)
+  succ: B3(goto)
+  preds: B6
+  tacs:
+    - label L2
+    - var t15
+    - t15 = j - 1
+    - j = t15
+    - output L3
+    - goto L4
+
+Block B9 (label: L5)
+  succ: <none>
+  preds: B3
+  tacs:
+    - label L5
+    - output L6
+    - output t33
+    - output L3
+    - output t39
+    - output L6
+    - end
+

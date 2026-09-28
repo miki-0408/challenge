@@ -1,0 +1,111 @@
+CFG detail for test/test.m
+
+Block B0 (label: main)
+  succ: B1(fallthrough)
+  preds: <none>
+  tacs:
+    - label main
+
+Block B1
+  succ: B2(fallthrough)
+  preds: B0
+  tacs:
+    - begin
+    - var b
+    - var c
+    - var d
+    - var e
+    - var f
+    - var j
+    - var i
+    - var k
+    - input b
+    - input c
+    - input e
+    - j = e
+    - k = 5
+    - var t0
+    - t0 = b + c
+
+Block B2 (label: L8)
+  succ: B3(fallthrough)
+  preds: B1
+  tacs:
+    - label L8
+    - var t26
+    - t26 = t0
+    - var t28
+    - t28 = t26 / j
+    - var t29
+    - t29 = t28 + t28
+    - var t30
+    - t30 = t0 + t29
+    - d = t30
+    - var t33
+    - t33 = t26 * j
+    - var t34
+    - t34 = t33 + t33
+    - var t35
+    - t35 = t26 - t34
+    - f = t35
+
+Block B3 (label: L3)
+  succ: B9(branch) ,B4(fallthrough)
+  preds: B8 ,B2
+  tacs:
+    - label L3
+    - var t1
+    - t1 = (k > 0)
+    - ifz t1 goto L4
+
+Block B4
+  succ: B5(fallthrough)
+  preds: B3
+  tacs:
+    - i = 10
+
+Block B5 (label: L7)
+  succ: B6(fallthrough)
+  preds: B4
+  tacs:
+    - label L7
+
+Block B6 (label: L1)
+  succ: B8(branch) ,B7(fallthrough)
+  preds: B7 ,B5
+  tacs:
+    - label L1
+    - var t2
+    - t2 = (i > 0)
+    - ifz t2 goto L2
+
+Block B7
+  succ: B6(goto)
+  preds: B6
+  tacs:
+    - var t13
+    - t13 = i - 1
+    - i = t13
+    - goto L1
+
+Block B8 (label: L2)
+  succ: B3(goto)
+  preds: B6
+  tacs:
+    - label L2
+    - var t15
+    - t15 = k - 1
+    - k = t15
+    - goto L3
+
+Block B9 (label: L4)
+  succ: <none>
+  preds: B3
+  tacs:
+    - label L4
+    - output d
+    - output L5
+    - output f
+    - output L6
+    - end
+

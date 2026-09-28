@@ -1,0 +1,323 @@
+
+# tac list
+
+0x5630c9d078b0	label main
+0x5630c9d078f0	begin
+0x5630c9cf9810	var i
+0x5630c9cf98b0	var temp
+0x5630c9cf9950	var temp2
+0x5630c9cf9a60	temp = 56422
+0x5630c9cf9b70	i = 0
+0x5630c9d07630	label L59
+0x5630c9cf9d10	var t0
+0x5630c9cf9d50	t0 = (i < 12)
+0x5630c9d07770	ifz t0 goto L60
+0x5630c9cf9e00	temp2 = 0
+0x5630c9cf9fa0	var t1
+0x5630c9cf9fe0	t1 = (temp == 7340)
+0x5630c9cfa4f0	ifz t1 goto L2
+0x5630c9cfa1f0	var t2
+0x5630c9cfa230	t2 = 50636 * i
+0x5630c9cfa2d0	var t3
+0x5630c9cfa310	t3 = temp - t2
+0x5630c9cfa350	temp2 = t3
+0x5630c9cfa3f0	output L1
+0x5630c9cfa4b0	label L2
+0x5630c9cfa690	var t4
+0x5630c9cfa6d0	t4 = (temp == 28935)
+0x5630c9cfabe0	ifz t4 goto L4
+0x5630c9cfa8e0	var t5
+0x5630c9cfa920	t5 = 2027 * i
+0x5630c9cfa9c0	var t6
+0x5630c9cfaa00	t6 = temp - t5
+0x5630c9cfaa40	temp2 = t6
+0x5630c9cfaae0	output L3
+0x5630c9cfaba0	label L4
+0x5630c9cfad80	var t7
+0x5630c9cfadc0	t7 = (temp == 26028)
+0x5630c9cfb330	ifz t7 goto L6
+0x5630c9cfaf80	var t8
+0x5630c9cfafc0	t8 = temp / 70
+0x5630c9cfb110	var t9
+0x5630c9cfb150	t9 = t8 + 39976
+0x5630c9cfb190	temp2 = t9
+0x5630c9cfb230	output L5
+0x5630c9cfb2f0	label L6
+0x5630c9cfb470	var t10
+0x5630c9cfb4b0	t10 = (temp == 56422)
+0x5630c9cfba20	ifz t10 goto L8
+0x5630c9cfb670	var t11
+0x5630c9cfb6b0	t11 = temp / 39
+0x5630c9cfb800	var t12
+0x5630c9cfb840	t12 = t11 + 6265
+0x5630c9cfb880	temp2 = t12
+0x5630c9cfb920	output L7
+0x5630c9cfb9e0	label L8
+0x5630c9cfbbc0	var t13
+0x5630c9cfbc00	t13 = (temp == 12188)
+0x5630c9cfc170	ifz t13 goto L10
+0x5630c9cfbe70	var t14
+0x5630c9cfbeb0	t14 = 13773 * i
+0x5630c9cfbf50	var t15
+0x5630c9cfbf90	t15 = 27266 - t14
+0x5630c9cfbfd0	temp2 = t15
+0x5630c9cfc070	output L9
+0x5630c9cfc130	label L10
+0x5630c9cfc310	var t16
+0x5630c9cfc350	t16 = (temp == 10943)
+0x5630c9cfc860	ifz t16 goto L12
+0x5630c9cfc560	var t17
+0x5630c9cfc5a0	t17 = 24538 * i
+0x5630c9cfc640	var t18
+0x5630c9cfc680	t18 = temp + t17
+0x5630c9cfc6c0	temp2 = t18
+0x5630c9cfc760	output L11
+0x5630c9cfc820	label L12
+0x5630c9cfca00	var t19
+0x5630c9cfca40	t19 = (temp == 21140)
+0x5630c9cfcfb0	ifz t19 goto L14
+0x5630c9cfcc00	var t20
+0x5630c9cfcc40	t20 = temp / 18
+0x5630c9cfcd90	var t21
+0x5630c9cfcdd0	t21 = t20 + 3561
+0x5630c9cfce10	temp2 = t21
+0x5630c9cfceb0	output L13
+0x5630c9cfcf70	label L14
+0x5630c9cfd150	var t22
+0x5630c9cfd190	t22 = (temp == 17810)
+0x5630c9cfd700	ifz t22 goto L16
+0x5630c9cfd400	var t23
+0x5630c9cfd440	t23 = 62623 * i
+0x5630c9cfd4e0	var t24
+0x5630c9cfd520	t24 = 16198 - t23
+0x5630c9cfd560	temp2 = t24
+0x5630c9cfd600	output L15
+0x5630c9cfd6c0	label L16
+0x5630c9cfd8a0	var t25
+0x5630c9cfd8e0	t25 = (temp == 7711)
+0x5630c9cfddf0	ifz t25 goto L18
+0x5630c9cfdaf0	var t26
+0x5630c9cfdb30	t26 = 44131 * i
+0x5630c9cfdbd0	var t27
+0x5630c9cfdc10	t27 = temp + t26
+0x5630c9cfdc50	temp2 = t27
+0x5630c9cfdcf0	output L17
+0x5630c9cfddb0	label L18
+0x5630c9cfdf90	var t28
+0x5630c9cfdfd0	t28 = (temp == 13607)
+0x5630c9cfe540	ifz t28 goto L20
+0x5630c9cfe190	var t29
+0x5630c9cfe1d0	t29 = temp / 47
+0x5630c9cfe320	var t30
+0x5630c9cfe360	t30 = t29 + 9692
+0x5630c9cfe3a0	temp2 = t30
+0x5630c9cfe440	output L19
+0x5630c9cfe500	label L20
+0x5630c9cfe6e0	var t31
+0x5630c9cfe720	t31 = (temp == 48141)
+0x5630c9cfec30	ifz t31 goto L22
+0x5630c9cfe930	var t32
+0x5630c9cfe970	t32 = 55016 * i
+0x5630c9cfea10	var t33
+0x5630c9cfea50	t33 = temp + t32
+0x5630c9cfea90	temp2 = t33
+0x5630c9cfeb30	output L21
+0x5630c9cfebf0	label L22
+0x5630c9cfedd0	var t34
+0x5630c9cfee10	t34 = (temp == 11697)
+0x5630c9cff320	ifz t34 goto L24
+0x5630c9cff020	var t35
+0x5630c9cff060	t35 = 62840 * i
+0x5630c9cff100	var t36
+0x5630c9cff140	t36 = temp + t35
+0x5630c9cff180	temp2 = t36
+0x5630c9cff220	output L23
+0x5630c9cff2e0	label L24
+0x5630c9cff4c0	var t37
+0x5630c9cff500	t37 = (temp == 35028)
+0x5630c9cffa70	ifz t37 goto L26
+0x5630c9cff6c0	var t38
+0x5630c9cff700	t38 = temp / 178
+0x5630c9cff850	var t39
+0x5630c9cff890	t39 = t38 + 18141
+0x5630c9cff8d0	temp2 = t39
+0x5630c9cff970	output L25
+0x5630c9cffa30	label L26
+0x5630c9cffc10	var t40
+0x5630c9cffc50	t40 = (temp == 24485)
+0x5630c9d00160	ifz t40 goto L28
+0x5630c9cffe60	var t41
+0x5630c9cffea0	t41 = 48033 * i
+0x5630c9cfff40	var t42
+0x5630c9cfff80	t42 = temp - t41
+0x5630c9cfffc0	temp2 = t42
+0x5630c9d00060	output L27
+0x5630c9d00120	label L28
+0x5630c9d00300	var t43
+0x5630c9d00340	t43 = (temp == 9981)
+0x5630c9d00810	ifz t43 goto L29
+0x5630c9d00550	var t44
+0x5630c9d00590	t44 = 161 * i
+0x5630c9d00630	var t45
+0x5630c9d00670	t45 = temp - t44
+0x5630c9d006b0	temp2 = t45
+0x5630c9d00710	output L21
+0x5630c9d007d0	label L29
+0x5630c9d009b0	var t46
+0x5630c9d009f0	t46 = (temp == 39373)
+0x5630c9d00f00	ifz t46 goto L31
+0x5630c9d00c00	var t47
+0x5630c9d00c40	t47 = 6776 * i
+0x5630c9d00ce0	var t48
+0x5630c9d00d20	t48 = temp - t47
+0x5630c9d00d60	temp2 = t48
+0x5630c9d00e00	output L30
+0x5630c9d00ec0	label L31
+0x5630c9d010a0	var t49
+0x5630c9d010e0	t49 = (temp == 57509)
+0x5630c9d015f0	ifz t49 goto L33
+0x5630c9d012f0	var t50
+0x5630c9d01330	t50 = 17159 * i
+0x5630c9d013d0	var t51
+0x5630c9d01410	t51 = temp - t50
+0x5630c9d01450	temp2 = t51
+0x5630c9d014f0	output L32
+0x5630c9d015b0	label L33
+0x5630c9d01790	var t52
+0x5630c9d017d0	t52 = (temp == 51842)
+0x5630c9d01d40	ifz t52 goto L35
+0x5630c9d01990	var t53
+0x5630c9d019d0	t53 = temp / 102
+0x5630c9d01b20	var t54
+0x5630c9d01b60	t54 = t53 + 57001
+0x5630c9d01ba0	temp2 = t54
+0x5630c9d01c40	output L34
+0x5630c9d01d00	label L35
+0x5630c9d01ee0	var t55
+0x5630c9d01f20	t55 = (temp == 40347)
+0x5630c9d02490	ifz t55 goto L37
+0x5630c9d02190	var t56
+0x5630c9d021d0	t56 = 2568 * i
+0x5630c9d02270	var t57
+0x5630c9d022b0	t57 = 54615 - t56
+0x5630c9d022f0	temp2 = t57
+0x5630c9d02390	output L36
+0x5630c9d02450	label L37
+0x5630c9d02630	var t58
+0x5630c9d02670	t58 = (temp == 8854)
+0x5630c9d02be0	ifz t58 goto L39
+0x5630c9d02830	var t59
+0x5630c9d02870	t59 = temp / 50
+0x5630c9d029c0	var t60
+0x5630c9d02a00	t60 = t59 + 25851
+0x5630c9d02a40	temp2 = t60
+0x5630c9d02ae0	output L38
+0x5630c9d02ba0	label L39
+0x5630c9d02d80	var t61
+0x5630c9d02dc0	t61 = (temp == 10116)
+0x5630c9d03330	ifz t61 goto L41
+0x5630c9d02f80	var t62
+0x5630c9d02fc0	t62 = temp / 53
+0x5630c9d03110	var t63
+0x5630c9d03150	t63 = t62 + 13417
+0x5630c9d03190	temp2 = t63
+0x5630c9d03230	output L40
+0x5630c9d032f0	label L41
+0x5630c9d034d0	var t64
+0x5630c9d03510	t64 = (temp == 20947)
+0x5630c9d03a80	ifz t64 goto L43
+0x5630c9d03780	var t65
+0x5630c9d037c0	t65 = 43689 * i
+0x5630c9d03860	var t66
+0x5630c9d038a0	t66 = 64044 - t65
+0x5630c9d038e0	temp2 = t66
+0x5630c9d03980	output L42
+0x5630c9d03a40	label L43
+0x5630c9d03c20	var t67
+0x5630c9d03c60	t67 = (temp == 21250)
+0x5630c9d04170	ifz t67 goto L45
+0x5630c9d03e70	var t68
+0x5630c9d03eb0	t68 = 29723 * i
+0x5630c9d03f50	var t69
+0x5630c9d03f90	t69 = temp - t68
+0x5630c9d03fd0	temp2 = t69
+0x5630c9d04070	output L44
+0x5630c9d04130	label L45
+0x5630c9d04310	var t70
+0x5630c9d04350	t70 = (temp == 16416)
+0x5630c9d04860	ifz t70 goto L47
+0x5630c9d04560	var t71
+0x5630c9d045a0	t71 = 41523 * i
+0x5630c9d04640	var t72
+0x5630c9d04680	t72 = temp - t71
+0x5630c9d046c0	temp2 = t72
+0x5630c9d04760	output L46
+0x5630c9d04820	label L47
+0x5630c9d04a00	var t73
+0x5630c9d04a40	t73 = (temp == 13204)
+0x5630c9d04fb0	ifz t73 goto L49
+0x5630c9d04c00	var t74
+0x5630c9d04c40	t74 = temp / 193
+0x5630c9d04d90	var t75
+0x5630c9d04dd0	t75 = t74 + 53788
+0x5630c9d04e10	temp2 = t75
+0x5630c9d04eb0	output L48
+0x5630c9d04f70	label L49
+0x5630c9d05150	var t76
+0x5630c9d05190	t76 = (temp == 47597)
+0x5630c9d056a0	ifz t76 goto L51
+0x5630c9d053a0	var t77
+0x5630c9d053e0	t77 = 59581 * i
+0x5630c9d05480	var t78
+0x5630c9d054c0	t78 = temp + t77
+0x5630c9d05500	temp2 = t78
+0x5630c9d055a0	output L50
+0x5630c9d05660	label L51
+0x5630c9d05840	var t79
+0x5630c9d05880	t79 = (temp == 45195)
+0x5630c9d05d90	ifz t79 goto L53
+0x5630c9d05a90	var t80
+0x5630c9d05ad0	t80 = 22361 * i
+0x5630c9d05b70	var t81
+0x5630c9d05bb0	t81 = temp - t80
+0x5630c9d05bf0	temp2 = t81
+0x5630c9d05c90	output L52
+0x5630c9d05d50	label L53
+0x5630c9d05f30	var t82
+0x5630c9d05f70	t82 = (temp == 6032)
+0x5630c9d06440	ifz t82 goto L54
+0x5630c9d06180	var t83
+0x5630c9d061c0	t83 = 1021 * i
+0x5630c9d06260	var t84
+0x5630c9d062a0	t84 = temp + t83
+0x5630c9d062e0	temp2 = t84
+0x5630c9d06340	output L21
+0x5630c9d06400	label L54
+0x5630c9d065e0	var t85
+0x5630c9d06620	t85 = (temp == 17276)
+0x5630c9d06b90	ifz t85 goto L56
+0x5630c9d06890	var t86
+0x5630c9d068d0	t86 = 21834 * i
+0x5630c9d06970	var t87
+0x5630c9d069b0	t87 = 18047 - t86
+0x5630c9d069f0	temp2 = t87
+0x5630c9d06a90	output L55
+0x5630c9d06b50	label L56
+0x5630c9d06d30	var t88
+0x5630c9d06d70	t88 = (temp == 34923)
+0x5630c9d072a0	ifz t88 goto L58
+0x5630c9d06f80	var t89
+0x5630c9d06fc0	t89 = 32482 * i
+0x5630c9d07060	var t90
+0x5630c9d070a0	t90 = temp - t89
+0x5630c9d070e0	temp2 = t90
+0x5630c9d07180	output L57
+0x5630c9d07260	label L58
+0x5630c9d07330	temp = temp2
+0x5630c9d074f0	var t91
+0x5630c9d07530	t91 = i + 1
+0x5630c9d07570	i = t91
+0x5630c9d07670	goto L59
+0x5630c9d07730	label L60
+0x5630c9d07810	output L61
+0x5630c9d07930	end

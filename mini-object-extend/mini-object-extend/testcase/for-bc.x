@@ -1,0 +1,47 @@
+
+# tac list
+
+0x562f42c48530	label main
+0x562f42c48570	begin
+0x562f42c46830	var i
+0x562f42c46900	var j
+0x562f42c46960	input j
+0x562f42c46aa0	i = 0
+0x562f42c47620	label L3
+0x562f42c46c10	var t0
+0x562f42c46c50	t0 = (i < j)
+0x562f42c47660	ifz t0 goto L5
+0x562f42c470f0	var t2
+0x562f42c47130	t2 = (i > 10)
+0x562f42c47370	ifz t2 goto L2
+0x562f42c47200	output L1
+0x562f42c47240	goto L5
+0x562f42c47330	label L2
+0x562f42c473d0	output i
+0x562f42c476a0	label L4
+0x562f42c46e70	var t1
+0x562f42c46eb0	t1 = i + 1
+0x562f42c46ef0	i = t1
+0x562f42c476e0	goto L3
+0x562f42c47720	label L5
+0x562f42c477f0	output L6
+0x562f42c478a0	i = 0
+0x562f42c48300	label L9
+0x562f42c47a10	var t3
+0x562f42c47a50	t3 = (i < j)
+0x562f42c48340	ifz t3 goto L11
+0x562f42c47dd0	var t5
+0x562f42c47e10	t5 = (i == 10)
+0x562f42c48050	ifz t5 goto L8
+0x562f42c47ee0	output L7
+0x562f42c47f20	goto L10
+0x562f42c48010	label L8
+0x562f42c480b0	output i
+0x562f42c48380	label L10
+0x562f42c47be0	var t4
+0x562f42c47c20	t4 = i + 1
+0x562f42c47c60	i = t4
+0x562f42c483c0	goto L9
+0x562f42c48400	label L11
+0x562f42c48460	output L6
+0x562f42c485b0	end

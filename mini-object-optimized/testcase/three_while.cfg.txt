@@ -1,0 +1,149 @@
+CFG detail for /mnt/d/vs code project/challenge/mini-object-optimized/testcase/three_while.m
+
+Block B0 (label: main)
+  succ: B1(fallthrough)
+  preds: <none>
+  tacs:
+    - label main
+
+Block B1
+  succ: B2(fallthrough)
+  preds: B0
+  tacs:
+    - begin
+    - var sumd
+    - var sume
+    - var i
+    - var j
+    - var k
+    - sumd = 0
+    - sume = 0
+    - k = 12
+
+Block B2 (label: L11)
+  succ: B3(fallthrough)
+  preds: B1
+  tacs:
+    - label L11
+    - var t45
+    - t45 = 2 * 3
+    - var t46
+    - t46 = 1 + t45
+    - var t47
+    - t47 = 1 + 3
+    - var t48
+    - t48 = t47 / 2
+    - var t49
+    - t49 = t46 - t48
+    - var t50
+    - t50 = t49 + 9
+    - var t52
+    - t52 = 1 + t45
+    - var t53
+    - t53 = 3 - 1
+    - var t54
+    - t54 = t53 / 2
+    - var t55
+    - t55 = t52 - t54
+    - var t56
+    - t56 = t55 + 13
+
+Block B3 (label: L5)
+  succ: B13(branch) ,B4(fallthrough)
+  preds: B12 ,B2
+  tacs:
+    - label L5
+    - var t0
+    - t0 = (k > 0)
+    - ifz t0 goto L6
+
+Block B4
+  succ: B5(fallthrough)
+  preds: B3
+  tacs:
+    - j = 15
+
+Block B5 (label: L10)
+  succ: B6(fallthrough)
+  preds: B4
+  tacs:
+    - label L10
+
+Block B6 (label: L3)
+  succ: B12(branch) ,B7(fallthrough)
+  preds: B11 ,B5
+  tacs:
+    - label L3
+    - var t1
+    - t1 = (j > 0)
+    - ifz t1 goto L4
+
+Block B7
+  succ: B8(fallthrough)
+  preds: B6
+  tacs:
+    - i = 18
+
+Block B8 (label: L9)
+  succ: B9(fallthrough)
+  preds: B7
+  tacs:
+    - label L9
+
+Block B9 (label: L1)
+  succ: B11(branch) ,B10(fallthrough)
+  preds: B10 ,B8
+  tacs:
+    - label L1
+    - var t2
+    - t2 = (i > 0)
+    - ifz t2 goto L2
+
+Block B10
+  succ: B9(goto)
+  preds: B9
+  tacs:
+    - var t15
+    - t15 = sumd + t50
+    - sumd = t15
+    - var t16
+    - t16 = sume + t56
+    - var t17
+    - t17 = t16 + t50
+    - sume = t17
+    - var t18
+    - t18 = i - 1
+    - i = t18
+    - goto L1
+
+Block B11 (label: L2)
+  succ: B6(goto)
+  preds: B9
+  tacs:
+    - label L2
+    - var t19
+    - t19 = j - 1
+    - j = t19
+    - goto L3
+
+Block B12 (label: L4)
+  succ: B3(goto)
+  preds: B6
+  tacs:
+    - label L4
+    - var t20
+    - t20 = k - 1
+    - k = t20
+    - goto L5
+
+Block B13 (label: L6)
+  succ: <none>
+  preds: B3
+  tacs:
+    - label L6
+    - output sumd
+    - output L7
+    - output sume
+    - output L8
+    - end
+

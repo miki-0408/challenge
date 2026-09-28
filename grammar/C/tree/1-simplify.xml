@@ -1,0 +1,204 @@
+<!-- http://countwordsfree.com/xmlviewer -->
+<!-- this site can help you to view your xml code __Cui Liwei-->
+<translation-unit>
+	<!-- int aaa bbb ccc -->
+	<translation-unit>
+		<external-declaration>
+			<declaration>
+				<!-- int  -->
+				<declaration-specifiers>
+					<type-specifier>
+						int
+					</type-specifier>
+				</declaration-specifiers>
+				<!-- aaa bbb ccc -->
+				<init-declarator-list>
+					<!-- aaa bbb -->
+					<init-declarator-list>
+						<init-declarator-list>
+							<!-- aaa -->
+							<init-declarator>
+								<direct-declarator>
+									<identifier>
+										aaa
+									</identifier>
+								</direct-declarator>
+							</init-declarator>
+						</init-declarator-list>
+						<!-- bbb -->
+						<init-declarator>
+							<direct-declarator>
+								<identifier>
+									bbb
+								</identifier>
+							</direct-declarator>
+						</init-declarator>
+					</init-declarator-list>
+					<!-- ccc -->
+					<init-declarator>
+						<init-declarator>
+							<direct-declarator>
+								<identifier>
+									ccc
+								</identifier>
+							</direct-declarator>
+						</init-declarator>
+					</init-declarator>
+				</init-declarator-list>
+			</declaration>
+		</external-declaration>
+	</translation-unit>
+	<!-- main function -->
+	<external-declaration>
+		<function-definition>
+			<!-- int (return type) -->
+			<declaration-specifiers>
+				<type-specifier>
+					int
+				</type-specifier>
+			</declaration-specifiers>
+			<!-- main (name) -->
+			<declarator>
+				<direct-declarator>
+					<identifier>
+						main
+					</identifier>
+				</direct-declarator>
+			</declarator>
+			<!-- body -->
+			<compound-statement>
+				<block-item-list>
+					<block-item-list>
+						<!-- aaa = bbb + ccc + 100 -->
+						<statement>
+							<expression-statement>
+								<expression>
+									<assignment-expression>
+										<!-- aaa -->
+										<unary-expression>
+											<postfix-expression>
+												<primary-expression>
+													<identifier>
+														aaa
+													</identifier>
+												</primary-expression>
+											</postfix-expression>
+										</unary-expression>
+										<!-- = -->
+										<assignment-operator>
+											=
+										</assignment-operator>
+										<!-- bbb + ccc + 100 -->
+										<assignment-expression>
+											<conditional-expression>
+												<logical-OR-expression>
+													<logical-AND-expression>
+														<inclusive-OR-expression>
+															<exclusive-OR-expression>
+																<AND-expression>
+																	<equality-expression>
+																		<relational-expression>
+																			<shift-expression>
+																				<!-- bbb + ccc + 100 -->
+																				<additive-expression>
+																					<!--bbb + ccc -->
+																					<additive-expression>
+																						<!-- bbb -->
+																						<additive-expression>
+																							<multiplicative-expression>
+																								<!-- ... -->
+																								bbb
+																								<!-- ... -->
+																							</multiplicative-expression>
+																						</additive-expression>
+																						<!-- there is no ADD in stanard doc, i add it by myself -->
+																						<ADD>
+																							+
+																						</ADD>
+																						<!-- ccc -->
+																						<multiplicative-expression>
+																							<!-- ... -->
+																							ccc
+																							<!-- ... -->
+																						</multiplicative-expression>
+																					</additive-expression>
+																					<ADD>
+																						+
+																					</ADD>
+																					<!-- 100 -->
+																					<multiplicative-expression>
+																						<!-- ... -->
+																						100
+																						<!-- ... -->
+																					</multiplicative-expression>
+																				</additive-expression>
+																			</shift-expression>
+																		</relational-expression>
+																	</equality-expression>
+																</AND-expression>
+															</exclusive-OR-expression>
+														</inclusive-OR-expression>
+													</logical-AND-expression>
+												</logical-OR-expression>
+											</conditional-expression>
+										</assignment-expression>
+									</assignment-expression>
+								</expression>
+							</expression-statement>
+						</statement>
+					</block-item-list>
+					<!-- return 0 -->
+					<block-item>
+						<statement>
+							<jump-statement>
+								return
+								<!-- 0 -->
+								<expression>
+									<assignment-expression>
+										<conditional-expression>
+											<logical-OR-expression>
+												<logical-AND-expression>
+													<inclusive-OR-expression>
+														<exclusive-OR-expression>
+															<AND-expression>
+																<equality-expression>
+																	<relational-expression>
+																		<shift-expression>
+																			<additive-expression>
+																				<multiplicative-expression>
+																					<cast-expression>
+																						<unary-expression>
+																							<postfix-expression>
+																								<primary-expression>
+																									<constant>
+																										<integer-constant>
+																											<octal-constant>
+																												0
+																											</octal-constant>
+																										</integer-constant>
+																									</constant>
+																								</primary-expression>
+																							</postfix-expression>
+																						</unary-expression>
+																					</cast-expression>
+																				</multiplicative-expression>
+																			</additive-expression>
+																		</shift-expression>
+																	</relational-expression>
+																</equality-expression>
+															</AND-expression>
+														</exclusive-OR-expression>
+													</inclusive-OR-expression>
+												</logical-AND-expression>
+											</logical-OR-expression>
+										</conditional-expression>
+									</assignment-expression>
+								</expression>
+							</jump-statement>
+						</statement>
+					</block-item>
+				</block-item-list>
+			</compound-statement>
+		</function-definition>
+	</external-declaration>
+</translation-unit>

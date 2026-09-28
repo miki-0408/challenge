@@ -1,0 +1,647 @@
+CFG detail for /mnt/d/vs code project/challenge/mini-object-optimized/testcase/one_while.m
+
+Block B0 (label: main)
+  succ: B1(fallthrough)
+  preds: <none>
+  tacs:
+    - label main
+
+Block B1
+  succ: B2(fallthrough)
+  preds: B0
+  tacs:
+    - begin
+    - var i
+    - var temp
+    - var temp2
+    - temp = 56422
+    - i = 0
+
+Block B2 (label: L59)
+  succ: B64(branch) ,B3(fallthrough)
+  preds: B63 ,B1
+  tacs:
+    - label L59
+    - var t0
+    - t0 = (i < 12)
+    - ifz t0 goto L60
+
+Block B3
+  succ: B5(branch) ,B4(fallthrough)
+  preds: B2
+  tacs:
+    - temp2 = 0
+    - var t1
+    - t1 = (temp == 7340)
+    - ifz t1 goto L2
+
+Block B4
+  succ: B5(fallthrough)
+  preds: B3
+  tacs:
+    - var t2
+    - t2 = 50636 * i
+    - var t3
+    - t3 = temp - t2
+    - temp2 = t3
+    - output L1
+
+Block B5 (label: L2)
+  succ: B7(branch) ,B6(fallthrough)
+  preds: B4 ,B3
+  tacs:
+    - label L2
+    - var t4
+    - t4 = (temp == 28935)
+    - ifz t4 goto L4
+
+Block B6
+  succ: B7(fallthrough)
+  preds: B5
+  tacs:
+    - var t5
+    - t5 = 2027 * i
+    - var t6
+    - t6 = temp - t5
+    - temp2 = t6
+    - output L3
+
+Block B7 (label: L4)
+  succ: B9(branch) ,B8(fallthrough)
+  preds: B6 ,B5
+  tacs:
+    - label L4
+    - var t7
+    - t7 = (temp == 26028)
+    - ifz t7 goto L6
+
+Block B8
+  succ: B9(fallthrough)
+  preds: B7
+  tacs:
+    - var t8
+    - t8 = temp / 70
+    - var t9
+    - t9 = t8 + 39976
+    - temp2 = t9
+    - output L5
+
+Block B9 (label: L6)
+  succ: B11(branch) ,B10(fallthrough)
+  preds: B8 ,B7
+  tacs:
+    - label L6
+    - var t10
+    - t10 = (temp == 56422)
+    - ifz t10 goto L8
+
+Block B10
+  succ: B11(fallthrough)
+  preds: B9
+  tacs:
+    - var t11
+    - t11 = temp / 39
+    - var t12
+    - t12 = t11 + 6265
+    - temp2 = t12
+    - output L7
+
+Block B11 (label: L8)
+  succ: B13(branch) ,B12(fallthrough)
+  preds: B10 ,B9
+  tacs:
+    - label L8
+    - var t13
+    - t13 = (temp == 12188)
+    - ifz t13 goto L10
+
+Block B12
+  succ: B13(fallthrough)
+  preds: B11
+  tacs:
+    - var t14
+    - t14 = 13773 * i
+    - var t15
+    - t15 = 27266 - t14
+    - temp2 = t15
+    - output L9
+
+Block B13 (label: L10)
+  succ: B15(branch) ,B14(fallthrough)
+  preds: B12 ,B11
+  tacs:
+    - label L10
+    - var t16
+    - t16 = (temp == 10943)
+    - ifz t16 goto L12
+
+Block B14
+  succ: B15(fallthrough)
+  preds: B13
+  tacs:
+    - var t17
+    - t17 = 24538 * i
+    - var t18
+    - t18 = temp + t17
+    - temp2 = t18
+    - output L11
+
+Block B15 (label: L12)
+  succ: B17(branch) ,B16(fallthrough)
+  preds: B14 ,B13
+  tacs:
+    - label L12
+    - var t19
+    - t19 = (temp == 21140)
+    - ifz t19 goto L14
+
+Block B16
+  succ: B17(fallthrough)
+  preds: B15
+  tacs:
+    - var t20
+    - t20 = temp / 18
+    - var t21
+    - t21 = t20 + 3561
+    - temp2 = t21
+    - output L13
+
+Block B17 (label: L14)
+  succ: B19(branch) ,B18(fallthrough)
+  preds: B16 ,B15
+  tacs:
+    - label L14
+    - var t22
+    - t22 = (temp == 17810)
+    - ifz t22 goto L16
+
+Block B18
+  succ: B19(fallthrough)
+  preds: B17
+  tacs:
+    - var t23
+    - t23 = 62623 * i
+    - var t24
+    - t24 = 16198 - t23
+    - temp2 = t24
+    - output L15
+
+Block B19 (label: L16)
+  succ: B21(branch) ,B20(fallthrough)
+  preds: B18 ,B17
+  tacs:
+    - label L16
+    - var t25
+    - t25 = (temp == 7711)
+    - ifz t25 goto L18
+
+Block B20
+  succ: B21(fallthrough)
+  preds: B19
+  tacs:
+    - var t26
+    - t26 = 44131 * i
+    - var t27
+    - t27 = temp + t26
+    - temp2 = t27
+    - output L17
+
+Block B21 (label: L18)
+  succ: B23(branch) ,B22(fallthrough)
+  preds: B20 ,B19
+  tacs:
+    - label L18
+    - var t28
+    - t28 = (temp == 13607)
+    - ifz t28 goto L20
+
+Block B22
+  succ: B23(fallthrough)
+  preds: B21
+  tacs:
+    - var t29
+    - t29 = temp / 47
+    - var t30
+    - t30 = t29 + 9692
+    - temp2 = t30
+    - output L19
+
+Block B23 (label: L20)
+  succ: B25(branch) ,B24(fallthrough)
+  preds: B22 ,B21
+  tacs:
+    - label L20
+    - var t31
+    - t31 = (temp == 48141)
+    - ifz t31 goto L22
+
+Block B24
+  succ: B25(fallthrough)
+  preds: B23
+  tacs:
+    - var t32
+    - t32 = 55016 * i
+    - var t33
+    - t33 = temp + t32
+    - temp2 = t33
+    - output L21
+
+Block B25 (label: L22)
+  succ: B27(branch) ,B26(fallthrough)
+  preds: B24 ,B23
+  tacs:
+    - label L22
+    - var t34
+    - t34 = (temp == 11697)
+    - ifz t34 goto L24
+
+Block B26
+  succ: B27(fallthrough)
+  preds: B25
+  tacs:
+    - var t35
+    - t35 = 62840 * i
+    - var t36
+    - t36 = temp + t35
+    - temp2 = t36
+    - output L23
+
+Block B27 (label: L24)
+  succ: B29(branch) ,B28(fallthrough)
+  preds: B26 ,B25
+  tacs:
+    - label L24
+    - var t37
+    - t37 = (temp == 35028)
+    - ifz t37 goto L26
+
+Block B28
+  succ: B29(fallthrough)
+  preds: B27
+  tacs:
+    - var t38
+    - t38 = temp / 178
+    - var t39
+    - t39 = t38 + 18141
+    - temp2 = t39
+    - output L25
+
+Block B29 (label: L26)
+  succ: B31(branch) ,B30(fallthrough)
+  preds: B28 ,B27
+  tacs:
+    - label L26
+    - var t40
+    - t40 = (temp == 24485)
+    - ifz t40 goto L28
+
+Block B30
+  succ: B31(fallthrough)
+  preds: B29
+  tacs:
+    - var t41
+    - t41 = 48033 * i
+    - var t42
+    - t42 = temp - t41
+    - temp2 = t42
+    - output L27
+
+Block B31 (label: L28)
+  succ: B33(branch) ,B32(fallthrough)
+  preds: B30 ,B29
+  tacs:
+    - label L28
+    - var t43
+    - t43 = (temp == 9981)
+    - ifz t43 goto L29
+
+Block B32
+  succ: B33(fallthrough)
+  preds: B31
+  tacs:
+    - var t44
+    - t44 = 161 * i
+    - var t45
+    - t45 = temp - t44
+    - temp2 = t45
+    - output L21
+
+Block B33 (label: L29)
+  succ: B35(branch) ,B34(fallthrough)
+  preds: B32 ,B31
+  tacs:
+    - label L29
+    - var t46
+    - t46 = (temp == 39373)
+    - ifz t46 goto L31
+
+Block B34
+  succ: B35(fallthrough)
+  preds: B33
+  tacs:
+    - var t47
+    - t47 = 6776 * i
+    - var t48
+    - t48 = temp - t47
+    - temp2 = t48
+    - output L30
+
+Block B35 (label: L31)
+  succ: B37(branch) ,B36(fallthrough)
+  preds: B34 ,B33
+  tacs:
+    - label L31
+    - var t49
+    - t49 = (temp == 57509)
+    - ifz t49 goto L33
+
+Block B36
+  succ: B37(fallthrough)
+  preds: B35
+  tacs:
+    - var t50
+    - t50 = 17159 * i
+    - var t51
+    - t51 = temp - t50
+    - temp2 = t51
+    - output L32
+
+Block B37 (label: L33)
+  succ: B39(branch) ,B38(fallthrough)
+  preds: B36 ,B35
+  tacs:
+    - label L33
+    - var t52
+    - t52 = (temp == 51842)
+    - ifz t52 goto L35
+
+Block B38
+  succ: B39(fallthrough)
+  preds: B37
+  tacs:
+    - var t53
+    - t53 = temp / 102
+    - var t54
+    - t54 = t53 + 57001
+    - temp2 = t54
+    - output L34
+
+Block B39 (label: L35)
+  succ: B41(branch) ,B40(fallthrough)
+  preds: B38 ,B37
+  tacs:
+    - label L35
+    - var t55
+    - t55 = (temp == 40347)
+    - ifz t55 goto L37
+
+Block B40
+  succ: B41(fallthrough)
+  preds: B39
+  tacs:
+    - var t56
+    - t56 = 2568 * i
+    - var t57
+    - t57 = 54615 - t56
+    - temp2 = t57
+    - output L36
+
+Block B41 (label: L37)
+  succ: B43(branch) ,B42(fallthrough)
+  preds: B40 ,B39
+  tacs:
+    - label L37
+    - var t58
+    - t58 = (temp == 8854)
+    - ifz t58 goto L39
+
+Block B42
+  succ: B43(fallthrough)
+  preds: B41
+  tacs:
+    - var t59
+    - t59 = temp / 50
+    - var t60
+    - t60 = t59 + 25851
+    - temp2 = t60
+    - output L38
+
+Block B43 (label: L39)
+  succ: B45(branch) ,B44(fallthrough)
+  preds: B42 ,B41
+  tacs:
+    - label L39
+    - var t61
+    - t61 = (temp == 10116)
+    - ifz t61 goto L41
+
+Block B44
+  succ: B45(fallthrough)
+  preds: B43
+  tacs:
+    - var t62
+    - t62 = temp / 53
+    - var t63
+    - t63 = t62 + 13417
+    - temp2 = t63
+    - output L40
+
+Block B45 (label: L41)
+  succ: B47(branch) ,B46(fallthrough)
+  preds: B44 ,B43
+  tacs:
+    - label L41
+    - var t64
+    - t64 = (temp == 20947)
+    - ifz t64 goto L43
+
+Block B46
+  succ: B47(fallthrough)
+  preds: B45
+  tacs:
+    - var t65
+    - t65 = 43689 * i
+    - var t66
+    - t66 = 64044 - t65
+    - temp2 = t66
+    - output L42
+
+Block B47 (label: L43)
+  succ: B49(branch) ,B48(fallthrough)
+  preds: B46 ,B45
+  tacs:
+    - label L43
+    - var t67
+    - t67 = (temp == 21250)
+    - ifz t67 goto L45
+
+Block B48
+  succ: B49(fallthrough)
+  preds: B47
+  tacs:
+    - var t68
+    - t68 = 29723 * i
+    - var t69
+    - t69 = temp - t68
+    - temp2 = t69
+    - output L44
+
+Block B49 (label: L45)
+  succ: B51(branch) ,B50(fallthrough)
+  preds: B48 ,B47
+  tacs:
+    - label L45
+    - var t70
+    - t70 = (temp == 16416)
+    - ifz t70 goto L47
+
+Block B50
+  succ: B51(fallthrough)
+  preds: B49
+  tacs:
+    - var t71
+    - t71 = 41523 * i
+    - var t72
+    - t72 = temp - t71
+    - temp2 = t72
+    - output L46
+
+Block B51 (label: L47)
+  succ: B53(branch) ,B52(fallthrough)
+  preds: B50 ,B49
+  tacs:
+    - label L47
+    - var t73
+    - t73 = (temp == 13204)
+    - ifz t73 goto L49
+
+Block B52
+  succ: B53(fallthrough)
+  preds: B51
+  tacs:
+    - var t74
+    - t74 = temp / 193
+    - var t75
+    - t75 = t74 + 53788
+    - temp2 = t75
+    - output L48
+
+Block B53 (label: L49)
+  succ: B55(branch) ,B54(fallthrough)
+  preds: B52 ,B51
+  tacs:
+    - label L49
+    - var t76
+    - t76 = (temp == 47597)
+    - ifz t76 goto L51
+
+Block B54
+  succ: B55(fallthrough)
+  preds: B53
+  tacs:
+    - var t77
+    - t77 = 59581 * i
+    - var t78
+    - t78 = temp + t77
+    - temp2 = t78
+    - output L50
+
+Block B55 (label: L51)
+  succ: B57(branch) ,B56(fallthrough)
+  preds: B54 ,B53
+  tacs:
+    - label L51
+    - var t79
+    - t79 = (temp == 45195)
+    - ifz t79 goto L53
+
+Block B56
+  succ: B57(fallthrough)
+  preds: B55
+  tacs:
+    - var t80
+    - t80 = 22361 * i
+    - var t81
+    - t81 = temp - t80
+    - temp2 = t81
+    - output L52
+
+Block B57 (label: L53)
+  succ: B59(branch) ,B58(fallthrough)
+  preds: B56 ,B55
+  tacs:
+    - label L53
+    - var t82
+    - t82 = (temp == 6032)
+    - ifz t82 goto L54
+
+Block B58
+  succ: B59(fallthrough)
+  preds: B57
+  tacs:
+    - var t83
+    - t83 = 1021 * i
+    - var t84
+    - t84 = temp + t83
+    - temp2 = t84
+    - output L21
+
+Block B59 (label: L54)
+  succ: B61(branch) ,B60(fallthrough)
+  preds: B58 ,B57
+  tacs:
+    - label L54
+    - var t85
+    - t85 = (temp == 17276)
+    - ifz t85 goto L56
+
+Block B60
+  succ: B61(fallthrough)
+  preds: B59
+  tacs:
+    - var t86
+    - t86 = 21834 * i
+    - var t87
+    - t87 = 18047 - t86
+    - temp2 = t87
+    - output L55
+
+Block B61 (label: L56)
+  succ: B63(branch) ,B62(fallthrough)
+  preds: B60 ,B59
+  tacs:
+    - label L56
+    - var t88
+    - t88 = (temp == 34923)
+    - ifz t88 goto L58
+
+Block B62
+  succ: B63(fallthrough)
+  preds: B61
+  tacs:
+    - var t89
+    - t89 = 32482 * i
+    - var t90
+    - t90 = temp - t89
+    - temp2 = t90
+    - output L57
+
+Block B63 (label: L58)
+  succ: B2(goto)
+  preds: B62 ,B61
+  tacs:
+    - label L58
+    - temp = temp2
+    - var t91
+    - t91 = i + 1
+    - i = t91
+    - goto L59
+
+Block B64 (label: L60)
+  succ: <none>
+  preds: B2
+  tacs:
+    - label L60
+    - output L61
+    - end
+
