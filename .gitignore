@@ -1,0 +1,20 @@
+# 编译产物与中间文件
+*.o
+*.s
+*.x
+*.l.c
+*.y.c
+*.y.h
+mini
+asm
+machine
+core
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# 系统
+.DS_Store
+Thumbs.db
